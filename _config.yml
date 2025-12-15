@@ -1,0 +1,14 @@
+# 1. THEME CONFIGURATION (This tells GitHub to use the Mosaic theme)
+remote_theme: grandimam/mosaic
+
+# 2. SITE SETTINGS (Customize these to fit your site)
+title: Kinjal Ruecker's Personal Website
+description: Welcome to my professional portfolio and blog.
+baseurl: "" # Leave this empty for a User Page
+url: "https://kinjalruecker.github.io" # Your final desired URL
+
+# 3. JEKYLL BUILD SETTINGS (Standard for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
